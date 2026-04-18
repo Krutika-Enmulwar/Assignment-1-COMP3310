@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "6ca472a6-f8ac-4c31-aace-8a9fd34968a9",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Create \nAccoun",
@@ -140,8 +140,8 @@
           },
           {
             "position": {
-              "x": -4624,
-              "y": -1575
+              "x": -4680,
+              "y": -1640
             },
             "size": {
               "width": 112.5,
@@ -159,6 +159,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -242,7 +243,6 @@
               ]
             },
             "id": "14ba31b9-413c-434e-a7f7-e8bd39b17500",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -276,6 +276,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -372,8 +373,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -396,6 +396,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -492,8 +493,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -516,6 +516,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -612,8 +613,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -636,6 +636,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -732,13 +733,12 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
               "x": -4150,
-              "y": -1660
+              "y": -1760
             },
             "size": {
               "width": 120,
@@ -759,6 +759,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -842,7 +843,6 @@
               ]
             },
             "id": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Users D",
@@ -862,7 +862,7 @@
           {
             "position": {
               "x": -4150,
-              "y": -1530
+              "y": -1630
             },
             "size": {
               "width": 120,
@@ -883,6 +883,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -966,7 +967,6 @@
               ]
             },
             "id": "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Games D",
@@ -985,8 +985,8 @@
           },
           {
             "position": {
-              "x": -4150,
-              "y": -1372
+              "x": -4140,
+              "y": -1394
             },
             "size": {
               "width": 120,
@@ -1007,6 +1007,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1090,7 +1091,6 @@
               ]
             },
             "id": "30dd26f4-8426-4f23-8108-e962ac93058e",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Savegame files ",
@@ -1127,7 +1127,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "username, password ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1141,9 +1141,9 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "username, password"
             ],
-            "id": "4876f5f1-afc4-402a-a862-abdddf3d89ad",
+            "id": "d669583a-e52a-4a2b-815c-523bb49341e5",
             "source": {
               "cell": "14ba31b9-413c-434e-a7f7-e8bd39b17500",
               "port": "4e0e99fb-fb64-443a-9ff6-4c36fa2061b6"
@@ -1151,6 +1151,52 @@
             "target": {
               "cell": "6ca472a6-f8ac-4c31-aace-8a9fd34968a9",
               "port": "d8838c6f-daff-4592-97eb-921770696a46"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "store credentials ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "store credentials"
+            ],
+            "id": "169824a5-167d-4463-a3d1-dcce454dcb54",
+            "source": {
+              "x": -4310,
+              "y": -1770
+            },
+            "target": {
+              "cell": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
+              "port": "14cc8e10-0de8-4f56-b4c8-6923bc5fb058"
             }
           }
         ]
