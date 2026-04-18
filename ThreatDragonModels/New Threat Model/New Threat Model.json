@@ -1138,7 +1138,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "username, password"
@@ -1288,7 +1290,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "auth result "
@@ -1340,7 +1344,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "game moves"
@@ -1386,7 +1392,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "username, password"
@@ -1478,7 +1486,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "game state"
@@ -1634,7 +1644,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "restore game state"
@@ -1654,6 +1666,141 @@
                 "y": -1410
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Untrusted User \nInput ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "d669583a-e52a-4a2b-815c-523bb49341e5",
+                "194bfae1-8f53-4d59-8021-68a9d4766611",
+                "6816c218-ba3e-4e6a-af7c-9ba3d81c8bc1",
+                "d8d3e994-bc2a-4a0e-9c98-1a80c69fd4be",
+                "a8935797-a6d0-424e-8198-95f7d0db0eca",
+                "a8eec086-a69e-4c05-925e-9d031d0b6009"
+              ],
+              "containedElements": [
+                "6ca472a6-f8ac-4c31-aace-8a9fd34968a9",
+                "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
+                "b2bae5ab-335d-4107-af17-d6b991172ebc",
+                "da759abd-47e9-4c80-a419-6004d92d22cb"
+              ]
+            },
+            "labels": [
+              "Untrusted User \nInput"
+            ],
+            "id": "f06ccf91-8218-460d-90f7-e4676b8cedb3",
+            "source": {
+              "x": -4560,
+              "y": -1270
+            },
+            "target": {
+              "x": -4110,
+              "y": -1890
+            },
+            "vertices": [
+              {
+                "x": -4550,
+                "y": -1730
+              },
+              {
+                "x": -4320,
+                "y": -1890
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
