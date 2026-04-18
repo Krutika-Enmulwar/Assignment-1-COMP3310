@@ -1550,6 +1550,110 @@
                 "y": -1440
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "read JSON ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "read JSON"
+            ],
+            "id": "efaf8773-4483-4a12-86bf-504637867633",
+            "source": {
+              "x": -4320,
+              "y": -1272
+            },
+            "target": {
+              "cell": "30dd26f4-8426-4f23-8108-e962ac93058e",
+              "port": "b13ee4f4-c566-4194-8ec3-9b50d0d358ae"
+            },
+            "vertices": [
+              {
+                "x": -4210,
+                "y": -1272
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "restore game state ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "restore game state"
+            ],
+            "id": "a8eec086-a69e-4c05-925e-9d031d0b6009",
+            "source": {
+              "cell": "32731b77-b3be-4239-a89c-5c8d6157f4fc",
+              "port": "d8838c6f-daff-4592-97eb-921770696a46"
+            },
+            "target": {
+              "cell": "b2bae5ab-335d-4107-af17-d6b991172ebc",
+              "port": "d8838c6f-daff-4592-97eb-921770696a46"
+            },
+            "vertices": [
+              {
+                "x": -4480,
+                "y": -1410
+              }
+            ]
           }
         ]
       }
