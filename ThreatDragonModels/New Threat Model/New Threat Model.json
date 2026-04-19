@@ -737,7 +737,7 @@
           },
           {
             "position": {
-              "x": -4120,
+              "x": -4070,
               "y": -1710
             },
             "size": {
@@ -1179,7 +1179,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "auth result",
+              "name": "authentication \nresult  ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1195,7 +1195,7 @@
               ]
             },
             "labels": [
-              "auth result "
+              "authentication \nresult "
             ],
             "id": "194bfae1-8f53-4d59-8021-68a9d4766611",
             "source": {
@@ -1209,7 +1209,7 @@
             "vertices": [
               {
                 "x": -4200,
-                "y": -1655
+                "y": -1670
               }
             ]
           },
@@ -1335,7 +1335,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "store results",
+              "name": "game result ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1352,7 +1352,7 @@
               ]
             },
             "labels": [
-              "store result"
+              "game result"
             ],
             "id": "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
             "source": {
@@ -1438,7 +1438,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "write JSON ",
+              "name": "save game data ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1455,7 +1455,7 @@
               ]
             },
             "labels": [
-              "write JSON"
+              "save game data"
             ],
             "id": "56346b8a-f5d0-415a-ba1f-e4ea590c4784",
             "source": {
@@ -1493,7 +1493,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "read JSON ",
+              "name": "load  game data ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1510,7 +1510,7 @@
               ]
             },
             "labels": [
-              "read JSON"
+              "load game data "
             ],
             "id": "efaf8773-4483-4a12-86bf-504637867633",
             "source": {
@@ -1523,8 +1523,8 @@
             },
             "vertices": [
               {
-                "x": -4210,
-                "y": -1272
+                "x": -4150,
+                "y": -1250
               }
             ]
           },
@@ -1600,7 +1600,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "query label ",
+              "name": "authentication \nquery ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1616,7 +1616,7 @@
               ]
             },
             "labels": [
-              "query label"
+              "authentication \nquery"
             ],
             "id": "2711f353-80c0-46a2-903c-84cc305deb57",
             "source": {
