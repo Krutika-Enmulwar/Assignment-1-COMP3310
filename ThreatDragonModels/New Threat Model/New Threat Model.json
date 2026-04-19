@@ -1186,7 +1186,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "store credentials"
@@ -1238,7 +1241,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "query label"
@@ -1291,7 +1297,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1"
               ]
             },
             "labels": [
@@ -1440,7 +1446,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "store result"
@@ -1540,7 +1549,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "7dc25628-c4a7-4323-8064-575ec32a7fbf",
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "write JSON"
@@ -1592,7 +1604,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "7dc25628-c4a7-4323-8064-575ec32a7fbf",
+                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
+              ]
             },
             "labels": [
               "read JSON"
@@ -1644,9 +1659,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "f06ccf91-8218-460d-90f7-e4676b8cedb3"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "restore game state"
@@ -1675,87 +1688,46 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Untrusted User \nInput ",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "d669583a-e52a-4a2b-815c-523bb49341e5",
-                "194bfae1-8f53-4d59-8021-68a9d4766611",
-                "6816c218-ba3e-4e6a-af7c-9ba3d81c8bc1",
-                "d8d3e994-bc2a-4a0e-9c98-1a80c69fd4be",
-                "a8935797-a6d0-424e-8198-95f7d0db0eca",
-                "a8eec086-a69e-4c05-925e-9d031d0b6009"
-              ],
-              "containedElements": [
-                "6ca472a6-f8ac-4c31-aace-8a9fd34968a9",
-                "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
-                "b2bae5ab-335d-4107-af17-d6b991172ebc",
-                "da759abd-47e9-4c80-a419-6004d92d22cb"
-              ]
-            },
-            "labels": [
-              "Untrusted User \nInput"
-            ],
-            "id": "f06ccf91-8218-460d-90f7-e4676b8cedb3",
-            "source": {
-              "x": -4560,
-              "y": -1270
-            },
-            "target": {
-              "x": -4110,
-              "y": -1890
-            },
-            "vertices": [
-              {
-                "x": -4550,
-                "y": -1730
-              },
-              {
-                "x": -4320,
-                "y": -1890
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Untrusted Local File ",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "56346b8a-f5d0-415a-ba1f-e4ea590c4784",
+                "efaf8773-4483-4a12-86bf-504637867633"
+              ],
+              "containedElements": [
+                "30dd26f4-8426-4f23-8108-e962ac93058e"
+              ]
             },
             "labels": [
               "Untrusted Local File"
             ],
             "id": "7dc25628-c4a7-4323-8064-575ec32a7fbf",
             "source": {
-              "x": -4060,
-              "y": -1450
+              "x": -4030,
+              "y": -1530
             },
             "target": {
-              "x": -4080,
-              "y": -1250
+              "x": -3820,
+              "y": -1260
             },
             "vertices": [
               {
-                "x": -4140,
-                "y": -1430
+                "x": -4150,
+                "y": -1470
               },
               {
                 "x": -4200,
                 "y": -1370
               },
               {
-                "x": -4180,
-                "y": -1320
+                "x": -4150,
+                "y": -1300
+              },
+              {
+                "x": -4050,
+                "y": -1260
               }
             ]
           },
@@ -1771,25 +1743,33 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "169824a5-167d-4463-a3d1-dcce454dcb54",
+                "2711f353-80c0-46a2-903c-84cc305deb57",
+                "194bfae1-8f53-4d59-8021-68a9d4766611",
+                "32c45dda-62b4-4026-a4f3-9d6153b28ae2"
+              ],
+              "containedElements": [
+                "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
+                "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8"
+              ]
             },
             "labels": [
               "Database Storage"
             ],
             "id": "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
             "source": {
-              "x": -4110,
-              "y": -1890
+              "x": -3890,
+              "y": -1710
             },
             "target": {
-              "x": -4070,
+              "x": -3840,
               "y": -1490
             },
             "vertices": [
               {
-                "x": -4140,
-                "y": -1850
+                "x": -4030,
+                "y": -1790
               },
               {
                 "x": -4210,
@@ -1798,6 +1778,71 @@
               {
                 "x": -4230,
                 "y": -1610
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Untrusted User \nInput ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "d669583a-e52a-4a2b-815c-523bb49341e5",
+                "169824a5-167d-4463-a3d1-dcce454dcb54",
+                "2711f353-80c0-46a2-903c-84cc305deb57",
+                "6816c218-ba3e-4e6a-af7c-9ba3d81c8bc1",
+                "d8d3e994-bc2a-4a0e-9c98-1a80c69fd4be",
+                "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
+                "a8935797-a6d0-424e-8198-95f7d0db0eca",
+                "56346b8a-f5d0-415a-ba1f-e4ea590c4784",
+                "efaf8773-4483-4a12-86bf-504637867633"
+              ],
+              "containedElements": [
+                "6ca472a6-f8ac-4c31-aace-8a9fd34968a9",
+                "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
+                "b2bae5ab-335d-4107-af17-d6b991172ebc",
+                "da759abd-47e9-4c80-a419-6004d92d22cb",
+                "32731b77-b3be-4239-a89c-5c8d6157f4fc",
+                "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
+                "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8",
+                "30dd26f4-8426-4f23-8108-e962ac93058e"
+              ]
+            },
+            "labels": [
+              "Untrusted User \nInput"
+            ],
+            "id": "f06ccf91-8218-460d-90f7-e4676b8cedb3",
+            "source": {
+              "x": -4380,
+              "y": -1000
+            },
+            "target": {
+              "x": -3810,
+              "y": -1260
+            },
+            "vertices": [
+              {
+                "x": -4550,
+                "y": -1730
+              },
+              {
+                "x": -4340,
+                "y": -1870
+              },
+              {
+                "x": -4190,
+                "y": -1870
+              },
+              {
+                "x": -3920,
+                "y": -1790
               }
             ]
           }
