@@ -31,8 +31,8 @@
                 "text": "Create \nAccount"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -129,35 +129,22 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "5f9dd4ed-1b51-4915-a9fd-60af51dcbeff",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 1,
-                  "score": ""
-                }
-              ]
+              "threats": [],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             },
-            "children": [],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "children": []
           },
           {
             "position": {
@@ -1448,60 +1435,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "authentication \nquery ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1"
-              ]
-            },
-            "labels": [
-              "authentication \nquery"
-            ],
-            "id": "2711f353-80c0-46a2-903c-84cc305deb57",
-            "source": {
-              "cell": "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
-              "port": "0681d778-52bf-4435-b80a-52309002c1c9"
-            },
-            "target": {
-              "cell": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
-              "port": "6796173f-77a8-48c5-a4dd-a203d5798590"
-            },
-            "vertices": [
-              {
-                "x": -4240,
-                "y": -1730
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "store credentials ",
               "description": "",
               "outOfScope": false,
@@ -1593,6 +1526,60 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "authentication \nquery ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1"
+              ]
+            },
+            "labels": [
+              "authentication \nquery"
+            ],
+            "id": "2711f353-80c0-46a2-903c-84cc305deb57",
+            "source": {
+              "cell": "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
+              "port": "0681d778-52bf-4435-b80a-52309002c1c9"
+            },
+            "target": {
+              "cell": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
+              "port": "6796173f-77a8-48c5-a4dd-a203d5798590"
+            },
+            "vertices": [
+              {
+                "x": -4240,
+                "y": -1730
+              }
+            ]
+          },
+          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1606,9 +1593,9 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "194bfae1-8f53-4d59-8021-68a9d4766611",
-                "2711f353-80c0-46a2-903c-84cc305deb57",
                 "169824a5-167d-4463-a3d1-dcce454dcb54",
-                "32c45dda-62b4-4026-a4f3-9d6153b28ae2"
+                "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
+                "2711f353-80c0-46a2-903c-84cc305deb57"
               ],
               "containedElements": [
                 "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8"
