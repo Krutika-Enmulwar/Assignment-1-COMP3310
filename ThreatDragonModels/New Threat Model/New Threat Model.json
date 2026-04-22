@@ -31,8 +31,8 @@
                 "text": "Create \nAccount"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -129,14 +129,35 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "5f9dd4ed-1b51-4915-a9fd-60af51dcbeff",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             },
-            "children": []
+            "children": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -737,8 +758,8 @@
           },
           {
             "position": {
-              "x": -4070,
-              "y": -1710
+              "x": -4050,
+              "y": -1670
             },
             "size": {
               "width": 120,
@@ -746,7 +767,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Users DB"
+                "text": "Database"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -845,131 +866,7 @@
             "id": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
             "data": {
               "type": "tm.Store",
-              "name": "Users D",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": -4070,
-              "y": -1620
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Games DB"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 8,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "14cc8e10-0de8-4f56-b4c8-6923bc5fb058"
-                },
-                {
-                  "group": "right",
-                  "id": "87c47c77-e151-4cd6-8a4d-f61a2e17e065"
-                },
-                {
-                  "group": "bottom",
-                  "id": "b13ee4f4-c566-4194-8ec3-9b50d0d358ae"
-                },
-                {
-                  "group": "left",
-                  "id": "6796173f-77a8-48c5-a4dd-a203d5798590"
-                }
-              ]
-            },
-            "id": "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8",
-            "data": {
-              "type": "tm.Store",
-              "name": "Games D",
+              "name": "Database ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1335,55 +1232,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "game result ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
-                "503f1d12-b736-4298-ae8b-ac70020b3974"
-              ]
-            },
-            "labels": [
-              "game result"
-            ],
-            "id": "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
-            "source": {
-              "x": -4320,
-              "y": -1550
-            },
-            "target": {
-              "cell": "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8",
-              "port": "6796173f-77a8-48c5-a4dd-a203d5798590"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "game state ",
               "description": "",
               "outOfScope": false,
@@ -1690,6 +1538,61 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "game result U",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5619e36a-bfdc-4eaf-bf69-db4d3339e7f1",
+                "503f1d12-b736-4298-ae8b-ac70020b3974"
+              ]
+            },
+            "labels": [
+              "game result "
+            ],
+            "id": "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
+            "source": {
+              "x": -4320,
+              "y": -1550
+            },
+            "target": {
+              "cell": "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
+              "port": "b13ee4f4-c566-4194-8ec3-9b50d0d358ae"
+            },
+            "vertices": [
+              {
+                "x": -4210,
+                "y": -1530
+              }
+            ]
+          },
+          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1703,13 +1606,12 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "194bfae1-8f53-4d59-8021-68a9d4766611",
-                "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
                 "2711f353-80c0-46a2-903c-84cc305deb57",
-                "169824a5-167d-4463-a3d1-dcce454dcb54"
+                "169824a5-167d-4463-a3d1-dcce454dcb54",
+                "32c45dda-62b4-4026-a4f3-9d6153b28ae2"
               ],
               "containedElements": [
-                "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
-                "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8"
+                "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8"
               ]
             },
             "labels": [
@@ -1762,11 +1664,11 @@
               "crossingFlows": [
                 "6816c218-ba3e-4e6a-af7c-9ba3d81c8bc1",
                 "d8d3e994-bc2a-4a0e-9c98-1a80c69fd4be",
-                "32c45dda-62b4-4026-a4f3-9d6153b28ae2",
                 "a8935797-a6d0-424e-8198-95f7d0db0eca",
                 "56346b8a-f5d0-415a-ba1f-e4ea590c4784",
                 "efaf8773-4483-4a12-86bf-504637867633",
-                "169824a5-167d-4463-a3d1-dcce454dcb54"
+                "169824a5-167d-4463-a3d1-dcce454dcb54",
+                "32c45dda-62b4-4026-a4f3-9d6153b28ae2"
               ],
               "containedElements": [
                 "0421a38d-e0ca-4e52-9018-4bb10abb0b47",
@@ -1774,7 +1676,6 @@
                 "da759abd-47e9-4c80-a419-6004d92d22cb",
                 "32731b77-b3be-4239-a89c-5c8d6157f4fc",
                 "6fd96802-40ed-42cf-87cf-a5a5d1ea5ae8",
-                "603d45b5-8fb8-4c97-aafa-ee1022a7c0d8",
                 "30dd26f4-8426-4f23-8108-e962ac93058e"
               ]
             },
@@ -1865,6 +1766,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
