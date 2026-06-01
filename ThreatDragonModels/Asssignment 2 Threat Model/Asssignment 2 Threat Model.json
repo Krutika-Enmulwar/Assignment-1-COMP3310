@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 100,
-              "y": 440
+              "y": 505
             },
             "size": {
               "width": 70,
@@ -304,58 +304,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "restaurant details",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "restaurant details"
-            ],
-            "id": "7254f3d1-ed49-4146-a5e2-f82028bfe4cd",
-            "source": {
-              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-              "port": "4eefa0c0-923e-4444-b307-b66702f7fff4"
-            },
-            "target": {
-              "cell": "db8e5eb1-ab48-4049-b712-5230817f48c9",
-              "port": "12e2df37-824b-4d98-8d3e-a1a1218801fb"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 420
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "store\nmenu data",
               "description": "",
               "outOfScope": false,
@@ -383,60 +331,8 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "JSON query",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "JSON query"
-            ],
-            "id": "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
-            "source": {
-              "x": 392,
-              "y": 637
-            },
-            "target": {
-              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-              "port": "e29798d8-4ba7-4009-8335-05535a5fec77"
-            },
-            "vertices": [
-              {
-                "x": 560,
-                "y": 637
+                "x": 520,
+                "y": 530
               }
             ]
           },
@@ -488,9 +384,253 @@
             "vertices": [
               {
                 "x": 560,
-                "y": 590
+                "y": 565
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "restaurant details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "restaurant details"
+            ],
+            "id": "7254f3d1-ed49-4146-a5e2-f82028bfe4cd",
+            "source": {
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "50034775-181c-4bf9-a866-b920762b50d2"
+            },
+            "target": {
+              "cell": "db8e5eb1-ab48-4049-b712-5230817f48c9",
+              "port": "12e2df37-824b-4d98-8d3e-a1a1218801fb"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 393
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "JSON query",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "JSON query"
+            ],
+            "id": "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
+            "source": {
+              "cell": "c5fb8a14-ca60-42fe-8ebb-c0ebd087bec3",
+              "port": "437337d1-2491-4bca-a459-f5cf42f146e8"
+            },
+            "target": {
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "e29798d8-4ba7-4009-8335-05535a5fec77"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 637
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -516,6 +656,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -599,7 +740,6 @@
               ]
             },
             "id": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Restaurant Database",
@@ -637,6 +777,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -720,7 +861,6 @@
               ]
             },
             "id": "db8e5eb1-ab48-4049-b712-5230817f48c9",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Restaurant \nManagement",
@@ -739,7 +879,7 @@
           {
             "position": {
               "x": 330,
-              "y": 465
+              "y": 555
             },
             "size": {
               "width": 110,
@@ -757,6 +897,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -853,13 +994,12 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
               "x": 330,
-              "y": 637
+              "y": 687
             },
             "size": {
               "width": 110,
@@ -877,6 +1017,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -973,8 +1114,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "shape": "flow",
@@ -1048,7 +1188,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "restaurant/menu \ndata",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1062,7 +1202,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "restaurant/menu \ndata"
             ],
             "id": "47ff40ca-11a3-4866-b4c2-efe7635200c5",
             "source": {
@@ -1072,6 +1212,136 @@
             "target": {
               "cell": "c5fb8a14-ca60-42fe-8ebb-c0ebd087bec3",
               "port": "43ab61a0-d441-4f33-8f36-4986a64c2d53"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": 570
+              },
+              {
+                "x": 660,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 335,
+              "y": 415
+            },
+            "size": {
+              "width": 100,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Show \nMenu"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "441fea7b-f8e9-46e8-b7bf-e8beff451c98"
+                },
+                {
+                  "group": "right",
+                  "id": "fed742d1-481a-4c5f-908c-43f188170d61"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3a0df847-1fe5-4b75-9efc-506b21b5cc93"
+                },
+                {
+                  "group": "left",
+                  "id": "e1f42c11-c835-4f0f-92aa-4051d4eb087e"
+                }
+              ]
+            },
+            "id": "300b2f99-81c3-4ed0-b45c-03af55e9fa49",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Show \nMenu",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
