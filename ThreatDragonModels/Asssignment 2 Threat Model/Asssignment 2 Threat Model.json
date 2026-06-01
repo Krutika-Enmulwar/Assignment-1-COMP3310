@@ -419,7 +419,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "9d625d72-2722-401d-affc-76339b316b20"
+              ]
             },
             "labels": [
               "view restaurants"
@@ -435,8 +437,8 @@
             },
             "vertices": [
               {
-                "x": 170,
-                "y": 350
+                "x": 200,
+                "y": 370
               },
               {
                 "x": 310,
@@ -527,9 +529,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "restaurant query"
@@ -1521,9 +1521,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "restaurant list"
@@ -1670,7 +1668,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Trust Boundary: Untrusted User Input",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1678,21 +1676,21 @@
                 "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
                 "e58f3c3d-fffd-422a-aa7e-7643bc92be02",
                 "52a5c98f-ccff-443f-8e7f-1fbbebe9a03f",
-                "55369948-5648-41c6-b3b3-9c8c7941e3b5",
+                "a6c9e65f-d866-4b43-88c7-f240edb53bb6",
                 "023a21c0-e0a0-40f9-82de-3445d213b671",
                 "47ff40ca-11a3-4866-b4c2-efe7635200c5",
-                "bf597f43-da92-4bf3-ad41-1e7bf56008da",
                 "f3cd06a6-ee61-4cbe-ae85-064bac9e5564"
               ],
               "containedElements": [
                 "7e679e01-e78e-424a-a34e-e907fcb01c6e",
                 "db8e5eb1-ab48-4049-b712-5230817f48c9",
                 "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
-                "300b2f99-81c3-4ed0-b45c-03af55e9fa49"
+                "300b2f99-81c3-4ed0-b45c-03af55e9fa49",
+                "031922a0-3295-4f9c-91c4-fc4df8d2bed8"
               ]
             },
             "labels": [
-              "Trust Boundary"
+              "Trust Boundary: Untrusted User Input"
             ],
             "id": "9d625d72-2722-401d-affc-76339b316b20",
             "source": {
@@ -1705,16 +1703,16 @@
             },
             "vertices": [
               {
-                "x": 960,
-                "y": 470
+                "x": 890,
+                "y": 290
               },
               {
-                "x": 920,
-                "y": 260
+                "x": 630,
+                "y": 170
               },
               {
-                "x": 310,
-                "y": 200
+                "x": 230,
+                "y": 270
               },
               {
                 "x": 330,
