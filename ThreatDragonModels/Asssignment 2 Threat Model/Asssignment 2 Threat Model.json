@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "6f0e4da5-6b4c-4bb5-b65b-98fe3995b72d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "42cf1160-9bfd-44b6-8677-bfdaa7efa546",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Show \nRestaurants",
@@ -275,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -371,8 +372,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -491,8 +492,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -515,6 +515,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -611,8 +612,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -635,6 +635,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -731,8 +732,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
@@ -755,6 +755,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -851,8 +852,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 7
+            }
           },
           {
             "position": {
@@ -875,6 +875,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -971,8 +972,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 8
+            }
           },
           {
             "shape": "flow",
@@ -994,7 +994,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "create restaurant",
+              "name": "view menu",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1008,29 +1008,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "create restaurant"
+              "view menu"
             ],
-            "id": "98f10c10-91d8-4582-821a-d00a569a970f",
+            "id": "3db1dfeb-2e14-4945-9547-a4295e840b41",
             "source": {
-              "x": 168,
-              "y": 393
+              "x": 200,
+              "y": 408
             },
             "target": {
-              "cell": "00027dd4-29f7-41f5-b8c3-00e2e04f6198",
-              "port": "d34ccf57-f354-457d-8402-d8ad498e5061"
+              "cell": "a26e7a49-f81f-4658-8d6f-e349b6b03111",
+              "port": "349b57ee-29a8-49c3-934c-d81e0873d961"
             },
             "vertices": [
               {
-                "x": 190,
-                "y": 360
-              },
-              {
-                "x": 220,
-                "y": 250
-              },
-              {
-                "x": 330,
-                "y": 184
+                "x": 280,
+                "y": 380
               }
             ]
           },
@@ -1110,7 +1102,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "edit restaurant",
+              "name": "create restaurant",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1124,124 +1116,33 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "edit restaurant"
+              "create restaurant"
             ],
-            "id": "842f53ac-b974-4cf6-91b3-4c3c5739ed84",
+            "id": "98f10c10-91d8-4582-821a-d00a569a970f",
             "source": {
-              "x": 170,
-              "y": 390
+              "cell": "6f0e4da5-6b4c-4bb5-b65b-98fe3995b72d",
+              "port": "be85c3fd-00e9-42e9-b5ed-94b829f854f4"
             },
             "target": {
-              "cell": "9036653a-47bd-4267-9f85-6e0830507613",
-              "port": "349b57ee-29a8-49c3-934c-d81e0873d961"
+              "cell": "00027dd4-29f7-41f5-b8c3-00e2e04f6198",
+              "port": "d34ccf57-f354-457d-8402-d8ad498e5061"
             },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 360
+              },
+              {
+                "x": 220,
+                "y": 250
+              },
+              {
+                "x": 330,
+                "y": 184
+              }
+            ],
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -1302,11 +1203,11 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 10,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "edit restaurant",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1320,16 +1221,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "edit restaurant"
             ],
-            "id": "3db1dfeb-2e14-4945-9547-a4295e840b41",
+            "id": "842f53ac-b974-4cf6-91b3-4c3c5739ed84",
             "source": {
-              "x": 200,
-              "y": 408
+              "x": 170,
+              "y": 390
             },
             "target": {
-              "x": 300,
-              "y": 508
+              "cell": "9036653a-47bd-4267-9f85-6e0830507613",
+              "port": "349b57ee-29a8-49c3-934c-d81e0873d961"
             }
           }
         ]
