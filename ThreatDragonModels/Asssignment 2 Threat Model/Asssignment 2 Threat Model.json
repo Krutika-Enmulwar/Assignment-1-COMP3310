@@ -417,7 +417,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "JSON data \nrequest",
+              "name": "JSON query",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -434,7 +434,7 @@
               ]
             },
             "labels": [
-              "JSON data \nrequest"
+              "JSON query"
             ],
             "id": "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
             "source": {
@@ -447,7 +447,7 @@
             },
             "vertices": [
               {
-                "x": 600,
+                "x": 610,
                 "y": 660
               },
               {
@@ -1718,7 +1718,7 @@
             "id": "9d625d72-2722-401d-affc-76339b316b20",
             "source": {
               "x": 910,
-              "y": 640
+              "y": 630
             },
             "target": {
               "x": 910,
@@ -1727,7 +1727,7 @@
             "vertices": [
               {
                 "x": 890,
-                "y": 290
+                "y": 310
               },
               {
                 "x": 630,
