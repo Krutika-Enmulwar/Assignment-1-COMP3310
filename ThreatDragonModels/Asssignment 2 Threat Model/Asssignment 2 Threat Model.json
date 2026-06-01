@@ -165,9 +165,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "store\nmenu data"
@@ -219,9 +217,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "restaurant details"
@@ -273,7 +269,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "9d625d72-2722-401d-affc-76339b316b20"
+              ]
             },
             "labels": [
               "JSON query"
@@ -421,9 +419,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "view restaurants"
@@ -479,9 +475,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "menu item details"
@@ -587,9 +581,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "store restaurant data"
@@ -1231,7 +1223,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "9d625d72-2722-401d-affc-76339b316b20"
+              ]
             },
             "labels": [
               "restaurant/menu \ndata"
@@ -1643,9 +1637,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "menu query"
@@ -1683,24 +1675,20 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "adfb83ca-b93f-4414-af91-ca3e80d854a1",
-                "7254f3d1-ed49-4146-a5e2-f82028bfe4cd",
+                "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
                 "e58f3c3d-fffd-422a-aa7e-7643bc92be02",
                 "52a5c98f-ccff-443f-8e7f-1fbbebe9a03f",
-                "a6c9e65f-d866-4b43-88c7-f240edb53bb6",
-                "9ffa53f9-d77a-480c-8876-f258a16c8fdf",
                 "55369948-5648-41c6-b3b3-9c8c7941e3b5",
-                "6bfc1b7f-5c3f-4c0c-ba93-4872085f5d36",
                 "023a21c0-e0a0-40f9-82de-3445d213b671",
+                "47ff40ca-11a3-4866-b4c2-efe7635200c5",
                 "bf597f43-da92-4bf3-ad41-1e7bf56008da",
-                "f3cd06a6-ee61-4cbe-ae85-064bac9e5564",
-                "f2cb0eaa-5ef6-4eed-9432-2e4ca3a93a1c"
+                "f3cd06a6-ee61-4cbe-ae85-064bac9e5564"
               ],
               "containedElements": [
+                "7e679e01-e78e-424a-a34e-e907fcb01c6e",
                 "db8e5eb1-ab48-4049-b712-5230817f48c9",
                 "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
-                "300b2f99-81c3-4ed0-b45c-03af55e9fa49",
-                "031922a0-3295-4f9c-91c4-fc4df8d2bed8"
+                "300b2f99-81c3-4ed0-b45c-03af55e9fa49"
               ]
             },
             "labels": [
@@ -1708,17 +1696,29 @@
             ],
             "id": "9d625d72-2722-401d-affc-76339b316b20",
             "source": {
-              "x": 760,
-              "y": 180
+              "x": 910,
+              "y": 640
             },
             "target": {
-              "x": 230,
-              "y": 760
+              "x": 910,
+              "y": 640
             },
             "vertices": [
               {
-                "x": 270,
-                "y": 230
+                "x": 960,
+                "y": 470
+              },
+              {
+                "x": 920,
+                "y": 260
+              },
+              {
+                "x": 310,
+                "y": 200
+              },
+              {
+                "x": 330,
+                "y": 770
               }
             ]
           }
