@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 50,
-              "y": 180.00000000000003
+              "x": 40,
+              "y": 200
             },
             "size": {
               "width": 112.5,
@@ -635,7 +635,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "submits form",
+              "name": "user actions",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -649,7 +649,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "submits form"
+              "user actions"
             ],
             "id": "daec6ed0-fa95-4b9e-b67f-16a7cdba90a8",
             "source": {
@@ -687,7 +687,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "View or manage\nrestaurants/menus",
+              "name": "HTTP requests",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -701,7 +701,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "View or manage\nrestaurants/menus"
+              "HTTP requests"
             ],
             "id": "84924e3d-c8ad-44b3-8d0c-b0c43c80d531",
             "source": {
@@ -785,7 +785,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "renders \nHTML",
+              "name": "displayed \ncontent",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -799,7 +799,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "renders \nHTML"
+              "displayed \ncontent"
             ],
             "id": "8d04a4a1-170c-4779-adcb-39f57ade88ce",
             "source": {
