@@ -18,6 +18,61 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary:\nDatabase Storage",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "7254f3d1-ed49-4146-a5e2-f82028bfe4cd",
+                "55369948-5648-41c6-b3b3-9c8c7941e3b5",
+                "6bfc1b7f-5c3f-4c0c-ba93-4872085f5d36",
+                "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
+                "9ffa53f9-d77a-480c-8876-f258a16c8fdf",
+                "adfb83ca-b93f-4414-af91-ca3e80d854a1",
+                "47ff40ca-11a3-4866-b4c2-efe7635200c5",
+                "bf597f43-da92-4bf3-ad41-1e7bf56008da",
+                "f3cd06a6-ee61-4cbe-ae85-064bac9e5564",
+                "f2cb0eaa-5ef6-4eed-9432-2e4ca3a93a1c"
+              ],
+              "containedElements": [
+                "7e679e01-e78e-424a-a34e-e907fcb01c6e"
+              ]
+            },
+            "labels": [
+              "Trust Boundary:\nDatabase Storage"
+            ],
+            "id": "25c709eb-33c8-48fb-8125-eedd95162de0",
+            "source": {
+              "x": 910,
+              "y": 600
+            },
+            "target": {
+              "x": 910,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 600
+              },
+              {
+                "x": 640,
+                "y": 510
+              },
+              {
+                "x": 700,
+                "y": 420
+              }
+            ]
+          },
+          {
             "position": {
               "x": 100,
               "y": 505
@@ -154,58 +209,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "store\nmenu data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "store\nmenu data"
-            ],
-            "id": "adfb83ca-b93f-4414-af91-ca3e80d854a1",
-            "source": {
-              "cell": "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
-              "port": "43ab61a0-d441-4f33-8f36-4986a64c2d53"
-            },
-            "target": {
-              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-              "port": "4eefa0c0-923e-4444-b307-b66702f7fff4"
-            },
-            "vertices": [
-              {
-                "x": 520,
-                "y": 530
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "restaurant details",
               "description": "",
               "outOfScope": false,
@@ -217,7 +220,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
             },
             "labels": [
               "restaurant details"
@@ -235,60 +240,6 @@
               {
                 "x": 540,
                 "y": 393
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "JSON query",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
-              ]
-            },
-            "labels": [
-              "JSON query"
-            ],
-            "id": "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
-            "source": {
-              "cell": "c5fb8a14-ca60-42fe-8ebb-c0ebd087bec3",
-              "port": "437337d1-2491-4bca-a459-f5cf42f146e8"
-            },
-            "target": {
-              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-              "port": "e29798d8-4ba7-4009-8335-05535a5fec77"
-            },
-            "vertices": [
-              {
-                "x": 610,
-                "y": 620
               }
             ]
           },
@@ -466,58 +417,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "menu item details",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "menu item details"
-            ],
-            "id": "9ffa53f9-d77a-480c-8876-f258a16c8fdf",
-            "source": {
-              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
-              "port": "4eefa0c0-923e-4444-b307-b66702f7fff4"
-            },
-            "target": {
-              "cell": "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
-              "port": "43ab61a0-d441-4f33-8f36-4986a64c2d53"
-            },
-            "vertices": [
-              {
-                "x": 590,
-                "y": 570
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "restaurant query",
               "description": "",
               "outOfScope": false,
@@ -529,7 +428,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
             },
             "labels": [
               "restaurant query"
@@ -547,6 +448,10 @@
               {
                 "x": 660,
                 "y": 320
+              },
+              {
+                "x": 860,
+                "y": 410
               }
             ]
           },
@@ -581,7 +486,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
             },
             "labels": [
               "store restaurant data"
@@ -657,9 +564,176 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "JSON query",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0",
+                "9d625d72-2722-401d-affc-76339b316b20"
+              ]
+            },
+            "labels": [
+              "JSON query"
+            ],
+            "id": "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
+            "source": {
+              "cell": "c5fb8a14-ca60-42fe-8ebb-c0ebd087bec3",
+              "port": "437337d1-2491-4bca-a459-f5cf42f146e8"
+            },
+            "target": {
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "348f3eeb-2a99-496a-b8d9-4bdf7d5ed970"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 660
+              },
+              {
+                "x": 810,
+                "y": 600
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "menu item details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
+            },
+            "labels": [
+              "menu item details"
+            ],
+            "id": "9ffa53f9-d77a-480c-8876-f258a16c8fdf",
+            "source": {
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "e29798d8-4ba7-4009-8335-05535a5fec77"
+            },
+            "target": {
+              "cell": "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
+              "port": "43ab61a0-d441-4f33-8f36-4986a64c2d53"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 620
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "store\nmenu data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
+            },
+            "labels": [
+              "store\nmenu data"
+            ],
+            "id": "adfb83ca-b93f-4414-af91-ca3e80d854a1",
+            "source": {
+              "cell": "493ded3b-2b80-405b-96aa-ef5cf4e0174a",
+              "port": "43ab61a0-d441-4f33-8f36-4986a64c2d53"
+            },
+            "target": {
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "e29798d8-4ba7-4009-8335-05535a5fec77"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 555
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 650,
-              "y": 465.0000000000001
+              "x": 730,
+              "y": 475
             },
             "size": {
               "width": 150,
@@ -1224,6 +1298,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0",
                 "9d625d72-2722-401d-affc-76339b316b20"
               ]
             },
@@ -1241,12 +1316,16 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 570
+                "x": 880,
+                "y": 590
+              },
+              {
+                "x": 720,
+                "y": 690
               },
               {
                 "x": 610,
-                "y": 690
+                "y": 730
               }
             ]
           },
@@ -1521,7 +1600,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
             },
             "labels": [
               "restaurant list"
@@ -1537,15 +1618,15 @@
             },
             "vertices": [
               {
-                "x": 800,
+                "x": 880,
                 "y": 390
               },
               {
-                "x": 730,
+                "x": 760,
                 "y": 280
               },
               {
-                "x": 640,
+                "x": 600,
                 "y": 230
               }
             ]
@@ -1582,7 +1663,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "9d625d72-2722-401d-affc-76339b316b20"
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
               ]
             },
             "labels": [
@@ -1590,8 +1671,8 @@
             ],
             "id": "f3cd06a6-ee61-4cbe-ae85-064bac9e5564",
             "source": {
-              "x": 650,
-              "y": 500
+              "cell": "7e679e01-e78e-424a-a34e-e907fcb01c6e",
+              "port": "4eefa0c0-923e-4444-b307-b66702f7fff4"
             },
             "target": {
               "cell": "300b2f99-81c3-4ed0-b45c-03af55e9fa49",
@@ -1635,7 +1716,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25c709eb-33c8-48fb-8125-eedd95162de0"
+              ]
             },
             "labels": [
               "menu query"
@@ -1673,13 +1756,12 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
                 "e58f3c3d-fffd-422a-aa7e-7643bc92be02",
                 "52a5c98f-ccff-443f-8e7f-1fbbebe9a03f",
                 "a6c9e65f-d866-4b43-88c7-f240edb53bb6",
                 "023a21c0-e0a0-40f9-82de-3445d213b671",
-                "47ff40ca-11a3-4866-b4c2-efe7635200c5",
-                "f3cd06a6-ee61-4cbe-ae85-064bac9e5564"
+                "94de7ceb-f246-4e3b-bb04-97384e9b5b03",
+                "47ff40ca-11a3-4866-b4c2-efe7635200c5"
               ],
               "containedElements": [
                 "7e679e01-e78e-424a-a34e-e907fcb01c6e",
@@ -1699,7 +1781,7 @@
             },
             "target": {
               "x": 910,
-              "y": 640
+              "y": 630
             },
             "vertices": [
               {
@@ -1718,7 +1800,77 @@
                 "x": 330,
                 "y": 770
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
